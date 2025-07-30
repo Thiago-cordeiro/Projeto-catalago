@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+  background-color: #E9E3DF; 
+  font-family: "Poppins", sans-serif;
+}
+
+/*navegação*/
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight:600;
+}
+.links-nav{
+
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-left: 20px;
+}
+.log-car{
+    width: 100px;
+    display: flex;
+    gap: 10px; 
+
+}
+
+/*seção compre agora*/
+.hero{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FF7A30;
+}
+.chamada{
+    background-color: #FF7A30;
+    width: 600px;
+    height: 300px;
+    align-content: center;
+    color: #ffffff;
+}
+
+.chamada h3{
+    background-color: #FF7A30;   
+    width: 100%;
+    font-size: 1.2rem;
+}
+.chamada h1{
+    background-color: #FF7A30;   
+    width: 100%;
+    font-size: 4rem;
+}
+.chamada a{
+    background-color: #465C88;   
+    padding: 10px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+.img-hero{
+
+    background-color: #FF7A30;
+}
+/*seção compre agora*/
+.link-produtos{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    gap: 50px;
+    color: #ffffff;
+   
+}    
+.link-produtos img{
+    width: 200px;
+    background-color: #465C88;
+}     
+.produto-chamada{
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #465C88;
+    align-items: center;
+    text-align: center;
+
+}        
+.produto-chamada h3{
+    width: 100%;
+    background-color: #465C88;
+}
+.produto-chamada button{
+    width: 100px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #FF7A30;
+}
+.produto-chamada button{
+    background-color: #FF7A30;
+}
+/*seção benedficios*/
+.section-beneficios{
+   max-width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    gap: 150px;   
+}
+
+.beneficios{
+ 
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-around;
+}
+.circulo-icon{
+    background-color: #c0c6d1;
+    border-radius: 50%;
+    align-content: center;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+.circulo-icon img{
+    background-color: #c0c6d1;
+    border-radius: 50%;
+}
+
+/*reviews*/
+
+.section-reviews{
+    width: 90%;
+    padding: 30px;
+    min-height: 400px;
+    background-color: #eeecec;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+.section-reviews h2{
+
+    background-color: #eeecec;
+
+}
+.reviews-areas{
+    display: flex; 
+    justify-content: space-around;
+    background-color: #eeecec;
+}
+.reviews{
+    width: 200px;
+    border: #465C88 1px solid;
+    border-radius: 20px;
+    height: 200px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.pessoa-review{
+    display: flex;
+    align-items: center;
+}
+/*footer*/
+footer{
+    width: 90%;
+    margin-top: 50px;
+    min-height: 200px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #FF7A30;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.esq{
+    background-color: #FF7A30;
+}
+.esq a, .esq h3, .esq h2{
+    background-color: #FF7A30;
+}
+.dir, .dir a{
+    background-color: #FF7A30;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
