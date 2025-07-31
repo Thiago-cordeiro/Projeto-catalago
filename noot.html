@@ -16,7 +16,7 @@
 
         <div class="log-car">
             <a href="#">Login</a>
-            <a href="#"><img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg"></a>
+            <a href="carrinho.html"><img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg"></a>
         </div>
     </nav>
 
@@ -27,42 +27,41 @@
 
     <section class="produtos">
         <div class="produto">
-            <img src="IMG/noot.png" class="fone-img">
-            <h2>Itws 12</h2>
+            <img src="IMG/noot.png" class="fone-img" style="width: 310px;">
+            <h2>Macbook</h2>
 
             <div class="comprar">
-                <h3>144 R$</h3>
-                <button class="bt">
-                    <img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg">
-                </button>
-            </div>
-
-        </div>
-
-        <div class="produto">
-            <img src="IMG/noot.png" class="fone-img">
-            <h2>Itws 12</h2>
-
-            <div class="comprar">
-                <h3>144 R$</h3>
-                <button class="bt">
+                <h3>20000 R$</h3>
+                <button class="bt" onclick="adicionarCarrinho('Macbook', 20000)">
                     <img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg">
                 </button>
             </div>
         </div>
 
         <div class="produto">
-            <img src="IMG/noot.png" class="fone-img">
-            <h2>Itws 12</h2>
+            <img src="IMG/positivo.png" class="fone-img" style="width: 170px;">
+            <h2>Nootbook positivo</h2>
 
             <div class="comprar">
-                <h3>144 R$</h3>
-                <button class="bt">
+                <h3>300 R$</h3>
+                <button class="bt" onclick="adicionarCarrinho('Nootbook celeron positivo', 300)">
                     <img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg">
                 </button>
             </div>
+        </div>
 
-        </div>        
+        <div class="produto">
+            <img src="IMG/computer.png" class="fone-img" style="width: 200px;">
+            <h2>Só nos computer</h2>
+
+            <div class="comprar">
+                <h3>1300 R$</h3>
+                <button class="bt" onclick="adicionarCarrinho('So nos computer', 1300)">
+                    <img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg">
+                </button>
+            </div>
+        </div>
+  
     </section>
 
     <footer>
@@ -83,5 +82,6 @@
             <a href="assistente.html">casa inteligente</a>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

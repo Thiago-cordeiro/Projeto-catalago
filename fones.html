@@ -16,7 +16,7 @@
 
         <div class="log-car">
             <a href="#">Login</a>
-            <a href="#"><img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg"></a>
+            <a href="carrinho.html"><img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg"></a>
         </div>
     </nav>
 
@@ -28,121 +28,39 @@
     <section class="produtos">
         <div class="produto">
             <img src="IMG/fone.png" class="fone-img">
-            <h2>Itws 12</h2>
+            <h2 id="NomeProdutoComprar">Itws 12</h2>
 
             <div class="comprar">
-                <h3>144 R$</h3>
-                <button class="bt">
+                <h3 id="PrecoProdutoComprar">144 R$</h3>
+                <button class="bt" onclick="adicionarCarrinho('Itws 12', 144)">
                     <img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg">
                 </button>
             </div>
-
-        </div>
-
-        <div class="produto">
-            <img src="IMG/fone.png" class="fone-img">
-            <h2>Itws 12</h2>
-
-            <div class="comprar">
-                <h3>144 R$</h3>
-                <button class="bt">
-                    <img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg">
-                </button>
-            </div>
-        </div>
-
-        <div class="produto">
-            <img src="IMG/fone.png" class="fone-img">
-            <h2>Itws 12</h2>
-
-            <div class="comprar">
-                <h3>144 R$</h3>
-                <button class="bt">
-                    <img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg">
-                </button>
-            </div>
-
-        </div>        
-    </section>
-
-    <section class="produtos">
-        <div class="produto">
-            <img src="IMG/fone.png" class="fone-img">
-            <h2>Itws 12</h2>
-
-            <div class="comprar">
-                <h3>144 R$</h3>
-                <button class="bt">
-                    <img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg">
-                </button>
-            </div>
-
-        </div>
-
-        <div class="produto">
-            <img src="IMG/fone.png" class="fone-img">
-            <h2>Itws 12</h2>
-
-            <div class="comprar">
-                <h3>144 R$</h3>
-                <button class="bt">
-                    <img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg">
-                </button>
-            </div>
-        </div>
+        </div>  
         
         <div class="produto">
-            <img src="IMG/fone.png" class="fone-img">
-            <h2>Itws 12</h2>
+            <img src="IMG/foneFio.png" class="fone-img">
+            <h2 id="NomeProdutoComprar">Fone Fio Elegante</h2>
 
             <div class="comprar">
-                <h3>144 R$</h3>
-                <button class="bt">
+                <h3 id="PrecoProdutoComprar">30 R$</h3>
+                <button class="bt" onclick="adicionarCarrinho('Fone Fio Elegante', 30)">
                     <img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg">
                 </button>
             </div>
-
-        </div>        
-    </section>
-
-    <section class="produtos">
-        <div class="produto">
-            <img src="IMG/fone.png" class="fone-img">
-            <h2>Itws 12</h2>
-
-            <div class="comprar">
-                <h3>144 R$</h3>
-                <button class="bt">
-                    <img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg">
-                </button>
-            </div>
-
-        </div>
+        </div>  
 
         <div class="produto">
-            <img src="IMG/fone.png" class="fone-img">
-            <h2>Itws 12</h2>
+            <img src="IMG/foneDois.png" class="fone-img">
+            <h2 id="NomeProdutoComprar">Fone xing 2</h2>
 
             <div class="comprar">
-                <h3>144 R$</h3>
-                <button class="bt">
+                <h3 id="PrecoProdutoComprar">200 R$</h3>
+                <button class="bt" onclick="adicionarCarrinho('Fone xing 2', 200)">
                     <img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg">
                 </button>
             </div>
-        </div>
-        
-        <div class="produto">
-            <img src="IMG/fone.png" class="fone-img">
-            <h2>Itws 12</h2>
-
-            <div class="comprar">
-                <h3>144 R$</h3>
-                <button class="bt">
-                    <img src="IMG/shopping_cart_30dp_000000_FILL0_wght400_GRAD0_opsz24.svg">
-                </button>
-            </div>
-
-        </div>        
+        </div>  
     </section>
 
     <footer>
@@ -163,5 +81,7 @@
             <a href="assistente.html">casa inteligente</a>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -12,6 +12,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    scroll-behavior: smooth;
 }
 nav{
     width: 100%;
@@ -25,6 +26,9 @@ a{
     text-decoration: none;
     color: black;
     font-weight:600;
+}
+a:hover{
+    color: #465C88;
 }
 .links-nav{
 
