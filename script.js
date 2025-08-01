@@ -22,6 +22,8 @@ function listarCarrinho() {
                 <div class="precoProdutoCarrinho"><p>${lista[i].valor}</p></div>
                 <div class="quantidadeProdutoCarrinho"><p>1</p></div>
             </div>
+
+            <hr class="linha">
         `;
         total += lista[i].valor
     }
