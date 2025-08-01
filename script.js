@@ -17,12 +17,13 @@ function listarCarrinho() {
 
     for (let i = 0; i < lista.length; i++) {
         secaoProdutos.innerHTML += `
+        
+            <hr class="linha">
             <div class="produtoDescricao">
                 <div class="nomeProdutoCarrinho"><p>${lista[i].nome}</p></div>
                 <div class="precoProdutoCarrinho"><p>${lista[i].valor}</p></div>
                 <div class="quantidadeProdutoCarrinho"><p>1</p></div>
             </div>
-
             <hr class="linha">
         `;
         total += lista[i].valor

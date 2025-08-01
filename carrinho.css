@@ -36,7 +36,11 @@ a:hover{
     gap: 10px; 
 
 }
-
+.linha{
+    border:#465c882f 1px solid;
+    width: 1000px;
+    margin: 5px;
+}
 /*cabeçalho produtos
 */
 
